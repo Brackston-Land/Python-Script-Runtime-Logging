@@ -1,0 +1,29 @@
+*******WriteToExcel_openpyxl.py******** 
+Was the first script I tried. The 
+openpyxl module overwrites the excel file each time so it does 
+not maintain parameters that you set in charts and stuff.
+
+
+
+*****SuperSimple_WriteToExcel_win32.py******** 
+This is just a super simple script
+showing how to write to cells with win32 module. In order to use
+the win32 module, you need to install pywin32 (if that doesn't work 
+install pypiwin32) 
+https://stackoverflow.com/questions/23864234/importerror-no-module-named-win32com-client
+also attrs (if that doesn't work try attr) 
+https://stackoverflow.com/questions/49228744/attributeerror-module-attr-has-no-attribute-s
+
+
+
+*******WriteToExcel_win32.py*******
+Final script for writting start and end times of scripts to excel sheet.
+Also writes to excel sheet if there is an error in the script. This script should
+be placed in the Lib fil location of the python environment being used so that 
+it can be simply imported and used as a module. Ie.  Import WriteToExcel_win32.py
+
+
+
+*********AddNet.py********* 
+A script demonstrating how to call  and use the
+WriteToExcel_win32.py script 
