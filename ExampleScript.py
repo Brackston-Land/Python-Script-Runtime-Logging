@@ -1,12 +1,6 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
-#
 # Author:      Brackston Land
-#
-# Created:     18/05/2020
-# Copyright:   (c) Brackston Land 2020
-# Licence:     <your licence>
+# Created:     05/18/2020
 #-------------------------------------------------------------------------------
 import WriteToExcel_win32
 import time
